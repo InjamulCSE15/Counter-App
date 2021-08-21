@@ -1,5 +1,5 @@
 /* Google Font link below: */
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .container {
     margin: 0 auto;
@@ -18,11 +18,13 @@
     background-color: rgb(29, 54, 165);
     color: white;
     text-align: center;
+    
 }
 
 /* Select all the elements form counter-div */
 .counter-div > * {
     margin-bottom: 2rem;
+    font-family: 'Staatliches', cursive;
 }
 
 .count {
@@ -35,6 +37,26 @@
     border-radius: 5px;
     border: none;
     outline: none;
+    font-family: 'Staatliches', cursive;
+}
+
+.decrease {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+button.reset {
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+}
+
+button.increase {
+    cursor: pointer;
+    background-color: green;
+    color: white;
 }
 
 h1 {
