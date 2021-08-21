@@ -34,7 +34,7 @@ function setColor() {
         count.style.color = "red";
     }
     else {
-        count.style.color = "white";
+        count.style.color = "#fff";
     }
 }
 
