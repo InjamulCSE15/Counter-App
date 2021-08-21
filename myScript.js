@@ -33,9 +33,9 @@ function setColor() {
     else if(count.innerHTML < 0){
         count.style.color = "red";
     }
-    // else {
-    //     count.style.color = "red";
-    // }
+    else {
+        count.style.color = "white";
+    }
 }
 
 
