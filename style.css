@@ -44,19 +44,21 @@
     cursor: pointer;
     background-color: red;
     color: white;
-    font-family: 'Staatliches', cursive;
+    font-size: 15px;
 }
 
 button.reset {
     cursor: pointer;
     background-color: tomato;
     color: white;
+    font-size: 15px;
 }
 
 button.increase {
     cursor: pointer;
     background-color: green;
     color: white;
+    font-size: 15px;
 }
 
 h1 {
