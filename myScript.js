@@ -30,6 +30,9 @@ function setColor() {
     if(count.innerHTML > 0){
         count.style.color = "yellow";
     }
+    else if(count.innerHTML == 0){
+        count.style.color = "white";
+    }
     else {
         count.style.color = "red";
     }
