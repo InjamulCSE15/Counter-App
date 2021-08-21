@@ -12,16 +12,18 @@ var buttons = document.querySelector('.buttons');
 buttons.addEventListener('click', (e) => {
     if(e.target.classList.contains('increase')){
         count.innerHTML++;
+        setColor();
     }
 
     if(e.target.classList.contains('reset')){
         count.innerHTML = 0;
+        setColor();
     }
 
     if(e.target.classList.contains('decrease')){
         count.innerHTML--;
+        setColor();
     }
-    setColor();
 })
 
 // Color change:
