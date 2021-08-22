@@ -1,12 +1,14 @@
 
-var count = document.querySelector('.count');
+/* 
 var decrease = document.querySelector('.decrease');
 var reset = document.querySelector('.reset');
 var increase = document.querySelector('.increase');
 
+*/
 
 // Simplification of the below codes:
 
+var count = document.querySelector('.count');
 var buttons = document.querySelector('.buttons');
 
 buttons.addEventListener('click', (e) => {
@@ -44,18 +46,20 @@ function setColor() {
 
 
 
+/*
+increase.addEventListener('click', () => {
+         console.log("Increase one by one");
+         count.innerHTML++;
+});
 
-// increase.addEventListener('click', () => {
-//          console.log("Increase one by one");
-//          count.innerHTML++;
-// });
+decrease.addEventListener('click', () => {
+    console.log("decrease one by one");
+    count.innerHTML--;
+});
 
-// decrease.addEventListener('click', () => {
-//     console.log("decrease one by one");
-//     count.innerHTML--;
-// });
+reset.addEventListener('click', () => {
+    console.log("decrease one by one");
+    count.innerHTML= 0;
+});
 
-// reset.addEventListener('click', () => {
-//     console.log("decrease one by one");
-//     count.innerHTML= 0;
-// });
+*/
